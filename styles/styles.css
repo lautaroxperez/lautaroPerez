@@ -13,40 +13,15 @@ body{
     min-height: 100vh;
 }
 
-header{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background: rgb(107,85,72);
-    background: linear-gradient(90deg, rgba(107,85,72,1) 8%, rgba(195,168,130,1) 47%);
-    justify-content: center;
-    align-items: flex-end;
+
+.nav{
+    flex-direction: column;
 }
 
-ul{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-nav{
-    text-align: right;
-}
-
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-ul li{
-    list-style-type: none;
-}
-a{
-    color: black;
-    list-style-type: none;
-}
-
-.productosIncio{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.btn-primary {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #000000;
 }
 
 .productos{
@@ -57,6 +32,7 @@ a{
 .items{
     padding: 60px;
 }
+
 
 .fotoProducto{
     background-color: rgb(195,168,130);
