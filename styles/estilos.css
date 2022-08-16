@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&family=Splash&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav {
+  flex-direction: column;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: #ffffff;
+  border-color: #000000;
+}
+
+.items {
+  padding: 60px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgb(107, 85, 72) 8%, rgb(195, 168, 130) 47%);
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  text-align: left;
+}
+
+.lista {
+  padding: 10px;
+}
+
+@media (min-width: 480px) {
+  a {
+    color: white;
+  }
+  .footer {
+    color: white;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    background-color: antiquewhite;
+  }
+  .productosIncio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .productosIncio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=estilos.css.map */

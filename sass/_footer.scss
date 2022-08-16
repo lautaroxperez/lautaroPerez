@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: $gradiente;
+    justify-content: center;
+}
+
+.footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        list-style-type: none;
+        text-align: left;
+}
+
+.lista{
+    padding: 10px;
+}
