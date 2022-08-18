@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&family=Splash&display=swap");
-* {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Roboto:wght@100&family=Yanone+Kaffeesatz&display=swap');
+*{
   padding: 0;
   margin: 0;
 }
@@ -16,6 +16,14 @@ body {
   flex-direction: column;
 }
 
+.card-title{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.card-text{
+  font-family: 'Yanone Kaffeesatz', sans-serif;;
+}
+
 .btn-primary {
   color: #000;
   background-color: #ffffff;
@@ -30,7 +38,9 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: linear-gradient(90deg, rgb(107, 85, 72) 8%, rgb(195, 168, 130) 47%);
+  background: rgb(138,131,131);
+  background: linear-gradient(0deg, rgba(138,131,131,1) 0%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
+  color: black;
   justify-content: center;
 }
 
@@ -46,14 +56,6 @@ footer {
   padding: 10px;
 }
 
-@media (min-width: 480px) {
-  a {
-    color: white;
-  }
-  .footer {
-    color: white;
-  }
-}
 @media (min-width: 768px) {
   header {
     background-color: antiquewhite;
