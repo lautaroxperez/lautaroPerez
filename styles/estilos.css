@@ -7,6 +7,7 @@
 }
 
 body {
+  background-color: #ffeeda;
   text-align: center;
   font-family: "Bebas Neue", cursive;
   display: flex;
@@ -20,10 +21,14 @@ body {
 
 .card-title{
   font-family: 'Fjalla One', sans-serif;
+  margin-bottom: 0rem;
+
 }
 
 .card-text{
-  font-family: 'Yanone Kaffeesatz', sans-serif;;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 15px;
+  opacity: 0.8;
 }
 
 .btn-primary {
@@ -38,7 +43,7 @@ body {
 
 .footer-clean {
   padding:50px 0;
-  background-color:#fff;
+  background-color:#ffead2;
   color:#4b4c4d;
 }
 
