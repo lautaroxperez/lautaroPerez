@@ -1,0 +1,17 @@
+.footer--clean{
+    color: black;
+    font-weight: 500;
+}
+
+.footer-clean{
+    @extend .footer--clean
+}
+
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.card-title{
+    @include sizes(117px, 50px)
+}

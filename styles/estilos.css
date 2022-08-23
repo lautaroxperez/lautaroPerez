@@ -20,6 +20,8 @@ body {
 }
 
 .card-title{
+  width: 117px;
+  height: 50px;
   font-family: 'Fjalla One', sans-serif;
   margin-bottom: 0rem;
 
