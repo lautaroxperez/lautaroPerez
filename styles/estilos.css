@@ -43,6 +43,11 @@ body {
   padding: 60px;
 }
 
+.productosIncio{
+  align-items: center;
+  justify-items: center;
+}
+
 .footer-clean {
   padding:50px 0;
   background-color:#ffead2;
@@ -137,12 +142,12 @@ body {
   }
   .productosIncio {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (min-width: 1024px) {
   .productosIncio {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }/*# sourceMappingURL=estilos.css.map */

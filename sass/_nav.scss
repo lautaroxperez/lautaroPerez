@@ -1,13 +1,27 @@
-.nav{
+.nav {
     flex-direction: column;
-}
-
-.btn-primary {
+  }
+  
+  .card-title{
+    width: 117px;
+    height: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 0rem;
+  
+  }
+  
+  .card-text{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15px;
+    opacity: 0.8;
+  }
+  
+  .btn-primary {
     color: #000;
     background-color: #ffffff;
     border-color: #000000;
-}
-
-.items{
+  }
+  
+  .items {
     padding: 60px;
-}
+  }

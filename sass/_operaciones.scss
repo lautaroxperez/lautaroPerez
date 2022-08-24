@@ -15,3 +15,45 @@
 .card-title{
     @include sizes(117px, 50px)
 }
+
+@media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+  
+  
+  @media (max-width:991px) {
+    .footer-clean .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item.social > a {
+      margin-top:10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    header {
+      background-color: antiquewhite;
+    }
+    .productosIncio {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media (min-width: 1024px) {
+    .productosIncio {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);}
+    }
